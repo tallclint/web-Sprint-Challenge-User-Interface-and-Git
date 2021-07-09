@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+/*	border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -47,10 +47,26 @@ table {
 	border-spacing: 0;
 }
 
-* {
-    box-sizing: border-box;
+
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    font-size: 14px;
+    margin-left:260px;
+    
 }
 
+    
+
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+    
+}
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -61,56 +77,153 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
-
+*{
+    
+}
 p {
     line-height: 1.4;
-}
 
+
+}
+.container2 {
+    width: 800px;
+    margin: 0 auto;
+   
+}
 .container {
     width: 800px;
     margin: 0 auto;
 }
-
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    border-bottom: 1px black dashed;
+    
 }
-
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
+    
+    
+}
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
-
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
-.middle-content .boxes .box {
+.middle-content .boxes .box1  {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
+    background:teal;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.middle-content .boxes .box2  {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    background:gold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    background:cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box4  {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    background:coral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box5  {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    background:crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box6  {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    background:forestgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box7  {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    background:darkorchid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box8  {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    background:hotpink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box9  {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    background:indigo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box10  {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    background:dodgerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .bottom-content {
     display: flex;
@@ -143,4 +256,38 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+nav{
+    padding:2%;
+}
+nav a{
+    display:inline-block;
+    padding:1% 0;
+    width:10%;
+    text-align: center;
+}
+.about-page nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    font-size: 14px;
+    
+    border-bottom: 1px dashed black; 
+}
+
+button {
+    
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    border-color:black;
+    border-radius: 12px;
+  }
+.bottom-about{
+   display:block;
+   padding:20px;
 }
